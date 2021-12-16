@@ -4,13 +4,11 @@ Repository to host the documentation and training for C-SCALE.
 
 # Build the docs locally
 
-## Conda
+## One off setup
 
-Conda is a package manager. See https://docs.conda.io/ for more information.
+Use [conda](https://conda.io/) to configure the working environment with
+[MkDocs](https://www.mkdocs.org/):
 
-### First time setup
-
-Below are the steps to configure the working environment for the first time:
 ```bash
 # download and install miniconda
 cd </path/to/working/dir>
@@ -22,7 +20,7 @@ conda env create -f </path/to/>environment.yml
 conda activate c-scale-docs
 ```
 
-### Activate environment
+## Activate environment
 
 After you have configured the conda environment following the steps above,
 you only need to activate it with the following:
@@ -32,30 +30,7 @@ source </path/to/c-scale-docs>/etc/profile.d/conda.sh
 conda activate c-scale-docs
 ```
 
-## MkDocs
-
-MkDocs is a documentation generator that focuses on speed and simplicity.
-For getting started visit:
-
-https://docs.readthedocs.io/en/stable/intro/getting-started-with-mkdocs.html
-
-### First time setup
-
-```bash
-# go to this repository
-cd </path/to/>documentation
-
-# initialize MkDocs
-mkdocs new .
-```
-
-The `mkdocs new` command generates two files:
-* `mkdocs.yml`: the MkDocs configuration
-* `docs/index.md`: the Markdown file that is the entry point for your documentation.
-
-### View the documentation locally
-
-Just run:
+To view the documentation just run:
 
 ```bash
 mkdocs serve
