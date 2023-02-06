@@ -1,5 +1,9 @@
 # C-SCALE Documentation
 
+Note: the C-SCALE documentation is now hosted at [https://wiki.c-scale.eu/C-SCALE](https://wiki.c-scale.eu/C-SCALE).
+This repository can still be used to contact us if you find typos or miss some information.
+The information below is only kept for reference purposes.
+
 Repository to host the documentation and training for C-SCALE.
 
 [![Documentation Status](https://readthedocs.org/projects/c-scale-documentation/badge/?version=latest)](https://c-scale-documentation.readthedocs.io/en/latest/?badge=latest)
